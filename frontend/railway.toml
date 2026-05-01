@@ -1,2 +1,2 @@
 [deploy]
-startCommand = ""
+startCommand = "serve -s dist -l ${PORT:-8080}"
